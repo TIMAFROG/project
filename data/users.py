@@ -15,3 +15,4 @@ class User(SqlAlchemyBase):
     donate_donations = orm.relationship('Donations')
 
     count_money = sqlalchemy.Column(sqlalchemy.Integer, index=True, nullable=True)
+    
