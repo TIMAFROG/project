@@ -14,3 +14,4 @@ class Donations(SqlAlchemyBase):
 
     donate = sqlalchemy.Column(sqlalchemy.String, nullable=False, default='Игрок')
     d = orm.relationship("User", back_populates='donate_donations')
+    
