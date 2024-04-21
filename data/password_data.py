@@ -10,7 +10,7 @@ class Data(SqlAlchemyBase):
 
     password = sqlalchemy.Column(sqlalchemy.String, unique=True)
 
-    email = sqlalchemy.Column(sqlalchemy.String, unique=True, nullable=True)
+    email = sqlalchemy.Column(sqlalchemy.String, nullable=True)
 
     telephone = sqlalchemy.Column(sqlalchemy.String, nullable=False)
 
